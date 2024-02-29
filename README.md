@@ -1,36 +1,64 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## JET-TEST:
 
-## Getting Started
+### Desafio proposto:
 
-First, run the development server:
+Criar uma aplicação web, responsiva, utilizando as tecnologias propostas, onde seja exibida em telas as versões do data-table, exposto no figma. A idéia nesta avaliação é avaliar a capacidade de resolução de problemas dos candidatos como também a criatividade nesse processo.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+#### Obs:
+- Não foi possível adicionar responsividade ao projeto devido a falta de tempo mas brevemente estarei implementando;
+
+#### Futuras melhorias:
+
+- Criar um componente chamado Card para exibir todos os itens dentro de uma Lista sempre que a largura da tela for menor que 600px;
+- Criar uma Tela de login;
+- Criar uma Tela para cadastro de usuário;
+- Adicionar um componente Header ao projeto;
+- Conectar a aplicação ao Firebase;
+- Fazer um crud dos carros utilizando o Firebase;
+
+### Demo video:
+
+https://github.com/gustavokozlowski/jet-test/assets/94485093/666a607f-7302-49aa-b705-cf6baabb5955
+
+### Tecnologias utilizadas neste projeto:
+
+```
+"dependencies": {
+    "next": "14.1.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@swc/jest": "^0.2.36",
+    "@testing-library/jest-dom": "^6.4.2",
+    "@testing-library/react": "^14.2.1",
+    "@types/jest": "^29.5.12",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Comando para a instalação & uso:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+````
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+ Instalar dependencias:
 
-## Learn More
+``` npm install
 
-To learn more about Next.js, take a look at the following resources:
+Rodar projeto:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+``` npm run dev
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+````
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Simples assim.
