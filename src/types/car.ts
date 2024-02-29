@@ -4,4 +4,5 @@ export interface Car {
     name: string;
     note: string;
     status: string;
+    reservation: string;
   }

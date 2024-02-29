@@ -6,7 +6,8 @@ export const data: Car[] = [
     image: "Frame 1.png",
     name: "Conjunto de vidros",
     note: "",
-    status: "Available"
+    status: "Available",
+    reservation: "11/07"
   },
 
 ];
