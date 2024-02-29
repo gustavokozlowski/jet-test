@@ -15,6 +15,7 @@ Criar uma aplicação web, responsiva, utilizando as tecnologias propostas, onde
 - Adicionar um componente Header ao projeto;
 - Conectar a aplicação ao Firebase;
 - Fazer um crud dos carros utilizando o Firebase;
+- Criar testes para garantir a qualidade do código;
 
 ### Demo video:
 
